@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\PracticingCS\MoarPractice\bin\Debug\MoarPractice.exe.config
+C:\Users\User\source\repos\PracticingCS\MoarPractice\bin\Debug\MoarPractice.exe
+C:\Users\User\source\repos\PracticingCS\MoarPractice\bin\Debug\MoarPractice.pdb
+C:\Users\User\source\repos\PracticingCS\MoarPractice\obj\Debug\MoarPractice.csprojAssemblyReference.cache
+C:\Users\User\source\repos\PracticingCS\MoarPractice\obj\Debug\MoarPractice.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\PracticingCS\MoarPractice\obj\Debug\MoarPractice.exe
+C:\Users\User\source\repos\PracticingCS\MoarPractice\obj\Debug\MoarPractice.pdb
