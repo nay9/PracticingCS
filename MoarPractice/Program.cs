@@ -7,41 +7,57 @@ using System.Threading.Tasks;
 namespace MoarPractice
 {
     class Program
-    {
-        static void Main(string[] args)
+      {
+          static void Main(string[] args)
+        /* First section of code starts
+           {
+             Console.WriteLine("Nay's Giveaway");
+             Console.Write("Choose a door: 1 2 3:");
+             string message = "";
+
+             string userValue = Console.ReadLine();
+             if (userValue == "1")
+             {
+                  message = "You win a new Tomato themed Car!";
+             }
+             else if (userValue == "2")
+             {
+                  message = "You win a used 1920s Boat!!";
+             }
+             else if (userValue == "3")
+             {
+                  message = "You win a blender, but the blades are warped.";
+             } else
+             {
+                  message = "you must enter a 1, a 2, or a 3.";
+             }
+
+             Console.WriteLine(message);
+
+
+
+             Console.ReadLine();
+
+
+        }   First section of code ends
+            
+         */
         {
-            Console.WriteLine("Nay's Giveaway");
-            Console.Write("Choose a door: 1 2 3:");
-            string message = "";
+            Console.WriteLine("What is your name?");
+            Console.Write("Type your first name in: ");
+            string myFirstName;
+            myFirstName = Console.ReadLine();
 
-            string userValue = Console.ReadLine();
-            if (userValue == "1")
-            {
-                 message = "You win a new Tomato themed Car!";
-                
+            Console.Write("Type your last name in: ");
+            string myLastName;
+            myLastName = Console.ReadLine();
 
-            }
-            else if (userValue == "2")
-            {
-                 message = "You win a used 1920s Boat!!";
+            Console.WriteLine("Hello, " + myFirstName + " "  + myLastName);
 
-            }
-            else if (userValue == "3")
-            {
-                 message = "You win a blender, but the blades are warped.";
-
-            } else
-            {
-                 message = "you must enter a 1, a 2, or a 3.";
-            }
-
-            Console.WriteLine(message);
-
-
-
-            Console.ReadLine();
 
 
         }
-    }
+      }
+
+
 }
