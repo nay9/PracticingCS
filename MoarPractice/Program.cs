@@ -61,20 +61,64 @@ namespace MoarPractice
     }  end of code
         */
 
+        /*for loop stuff
+         * 
+         * 
+         * {
+             for (int i = 0; i < 10; i++)
+             {
+                 Console.WriteLine(i);
+                 if (i == 9)
+                  {
+                     Console.WriteLine("This will be the last number");
+                     break;
+                 }
+
+
+             }
+             Console.WriteLine("The loop has finished");
+             Console.ReadLine();
+         }
+         end of code
+         */
+
+
+
+
+        /*
         {
-            for (int i = 0; i < 10; i++)
+            int[] numbers = new int[] {0,1,2,3,4};
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                int num = numbers[i];
+                num = (num + 1) * i;
+                numbers[i] = num;
+                Console.WriteLine(numbers[i]);
+            }
+
+            foreach (int n in numbers)
+            {
+                  
+            }
+
+            Console.WriteLine(numbers[0]);
+
+        }
+        */
+
+        // algorith
+        {
+            string zig = "potato " + "tomato";
+            char[] charArray = zig.ToCharArray();
+            Array.Reverse(charArray);
+
+            foreach (char i in charArray)
             {
                 Console.WriteLine(i);
-                if (i == 9)
-                 {
-                    Console.WriteLine("This will be the last number");
-                    break;
-                }
-
             }
-            Console.WriteLine("The loop has finished");
-            Console.ReadLine();
+
         }
+
       }
 
 
