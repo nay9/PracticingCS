@@ -10,6 +10,7 @@ namespace MoarPractice
       {
           static void Main(string[] args)
         /* First section of code starts
+         * simple IF statements
            {
              Console.WriteLine("Nay's Giveaway");
              Console.Write("Choose a door: 1 2 3:");
@@ -42,20 +43,37 @@ namespace MoarPractice
         }   First section of code ends
             
          */
+
+        /*
+         * start of code
+    {
+        Console.WriteLine("What is your name?");
+        Console.Write("Type your first name in: ");
+        string myFirstName = Console.ReadLine();
+
+        Console.Write("Type your last name in: ");
+        string myLastName = Console.ReadLine();
+
+        Console.WriteLine("Hello, " + myFirstName + " "  + myLastName);
+
+
+
+    }  end of code
+        */
+
         {
-            Console.WriteLine("What is your name?");
-            Console.Write("Type your first name in: ");
-            string myFirstName;
-            myFirstName = Console.ReadLine();
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(i);
+                if (i == 9)
+                 {
+                    Console.WriteLine("This will be the last number");
+                    break;
+                }
 
-            Console.Write("Type your last name in: ");
-            string myLastName;
-            myLastName = Console.ReadLine();
-
-            Console.WriteLine("Hello, " + myFirstName + " "  + myLastName);
-
-
-
+            }
+            Console.WriteLine("The loop has finished");
+            Console.ReadLine();
         }
       }
 
