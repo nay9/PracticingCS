@@ -106,7 +106,7 @@ namespace MoarPractice
         }
         */
 
-        // algorith
+        /* algorith
         {
             string zig = "potato " + "tomato";
             char[] charArray = zig.ToCharArray();
@@ -117,9 +117,28 @@ namespace MoarPractice
                 Console.WriteLine(i);
             }
 
+        } end of code
+        
+
+        {
+            HelloWorld();
+        }
+
+        private static void HelloWorld()
+        {
+            Console.WriteLine("hi world");
+        }
+
+        */
+
+        {
+
         }
 
       }
+
+
+    
 
 
 }
