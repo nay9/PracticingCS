@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\PracticingCS\UnderstandingScope\bin\Debug\UnderstandingScope.exe.config
+C:\Users\User\source\repos\PracticingCS\UnderstandingScope\bin\Debug\UnderstandingScope.exe
+C:\Users\User\source\repos\PracticingCS\UnderstandingScope\bin\Debug\UnderstandingScope.pdb
+C:\Users\User\source\repos\PracticingCS\UnderstandingScope\obj\Debug\UnderstandingScope.csprojAssemblyReference.cache
+C:\Users\User\source\repos\PracticingCS\UnderstandingScope\obj\Debug\UnderstandingScope.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\PracticingCS\UnderstandingScope\obj\Debug\UnderstandingScope.exe
+C:\Users\User\source\repos\PracticingCS\UnderstandingScope\obj\Debug\UnderstandingScope.pdb
